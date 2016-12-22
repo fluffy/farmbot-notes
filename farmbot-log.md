@@ -45,9 +45,15 @@ Used lots of clamps and squares to try and get everything lined up square.
 
 Because we love instant gratification and, well, we want to see it move, we are going to try and get the X axis all connected up to web site and moving before building y and z.
 
-The DXF files we used to get the cut plates did not include the correct corner brackets. We used what we did get on one side  !(images/_DSC0339.jpg)  and on the other side  we used a drill press and hacksaw to make one !(images/_DSC0339.jpg).
+The DXF files we used to get the cut plates did not include the correct corner brackets. We used what we did get on one side.
 
-If I was doing this again, I would order the plate from. 
+![motor1](images/_DSC0339.jpg)
+
+On the other side  we used a drill press and hacksaw to make one
+
+![motor2](images/_DSC0339.jpg).
+
+If I was doing this again, I would order the plate TODO.
 
 
 ### Setting up the Controller
