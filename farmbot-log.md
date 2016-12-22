@@ -47,13 +47,13 @@ Because we love instant gratification and, well, we want to see it move, we are 
 
 The DXF files we used to get the cut plates did not include the correct corner brackets. We used what we did get on one side.
 
-![motor1](images/_DSC0339.jpg)
+![motor1](images/_DSC0340.jpg)
 
 On the other side  we used a drill press and hacksaw to make one
 
 ![motor2](images/_DSC0339.jpg).
 
-If I was doing this again, I would order the plate TODO.
+If I was doing this again, I would consider order the end plate that vikhyat had designed at http://forum.farmbot.org/t/gantry-corner-bracket-drawing/1082 
 
 
 ### Setting up the Controller
