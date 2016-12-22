@@ -27,11 +27,11 @@ We set up the tracks to be about 1m by 1m space because it -20C outside right no
 
 And tip for next time, if the y gantry bar is 1m long, then that needs to match the distance from the *outside* of track on one side to the *outside* of track on other side.
 
-![tracks](https://raw.githubusercontent.com/fluffy/farmbot-notes/master/images/_DSC0324.jpg)
+![tracks](https://raw.githubusercontent.com/fluffy/farmbot-notes/master/images/_DSC0314.jpg)
 
 ## Building wheels and mounts for gantry - Day 2
 
-!(images/_DSC0320.jpg)
+!(https://raw.githubusercontent.com/fluffy/farmbot-notes/master/images/_DSC0320.jpg)
 
 
 ## Building gantry - Day 3 
