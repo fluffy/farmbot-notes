@@ -38,7 +38,7 @@ And tip for next time, if the y gantry bar is 1m long, then that needs to match 
 
 Used lots of clamps and squares to try and get everything lined up square.
 
-!(images/_DSC0336.jpg)
+![wheels](images/_DSC0336.jpg)
 
 
 ## Building X axis drive train - Day 4
