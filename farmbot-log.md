@@ -27,18 +27,18 @@ We set up the tracks to be about 1m by 1m space because it -20C outside right no
 
 And tip for next time, if the y gantry bar is 1m long, then that needs to match the distance from the *outside* of track on one side to the *outside* of track on other side.
 
-![tracks](https://raw.githubusercontent.com/fluffy/farmbot-notes/master/images/_DSC0314.jpg)
+![tracks](images/_DSC0314.jpg)
 
 ## Building wheels and mounts for gantry - Day 2
 
-!(https://raw.githubusercontent.com/fluffy/farmbot-notes/master/images/_DSC0320.jpg)
+![wheels](images/_DSC0320.jpg)
 
 
 ## Building gantry - Day 3 
 
 Used lots of clamps and squares to try and get everything lined up square.
 
-![wheels](images/_DSC0336.jpg)
+![gantry](images/_DSC0336.jpg)
 
 
 ## Building X axis drive train - Day 4
