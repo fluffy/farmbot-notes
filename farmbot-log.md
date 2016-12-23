@@ -31,6 +31,8 @@ And tip for next time, if the y gantry bar is 1m long, then that needs to match 
 
 ## Building wheels and mounts for gantry - Day 2
 
+Anyone have good input on easies way to get the location of the wheels adjusted?
+
 ![wheels](images/_DSC0320.jpg)
 
 
@@ -51,7 +53,7 @@ The DXF files we used to get the cut plates did not include the correct corner b
 
 On the other side  we used a drill press and hacksaw to make one
 
-![motor2](images/_DSC0339.jpg).
+![motor2](images/_DSC0339.jpg)
 
 If I was doing this again, I would consider order the end plate that vikhyat had designed at http://forum.farmbot.org/t/gantry-corner-bracket-drawing/1082 
 
@@ -63,6 +65,23 @@ Totally failed to get this to work until I attached a serial console to the Rasp
 ### Arduino firmware
 
 Ran into bug (https://github.com/FarmBot/farmbot-arduino-firmware/issues/42) so can't get the X asis moving. Will have to decide how to attack this problem. Looking at the code, I think I might try a patch that any time the pins for the X1 motor are set, the corresponding pins for the X2 motor are also set.
+
+
+## Day 5
+
+### Arduino firmware hacking
+
+Wrote a little PR to fix the Arduino software so now it drives both X motors. Remember to wire one of the motors to go backwards. This can be done by flipping the connector upside down where the motor plugs into the RAMPS shield. 
+
+### 3D Printing
+
+Downloaded universal tool mount base from OnShape as STL. Loaded in CURA. Flipped upside down. Printed in PLA with high speed setting and no supports. Print time 2 hours with 41 grams of PLA on a Lulzbot mini.
+
+### Build Cross Slide
+
+I wonder if anything should be changed to reduce backlash on z axis screw?
+
+![motor2](images/_DSC0351.jpg)
 
 
 
