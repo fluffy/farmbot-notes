@@ -92,19 +92,4 @@ Was going to print motor mount out of nylon which would be much stronger but did
 
 Wishing the wire I got to connect up the motors was smaller and more flexible. Think I would use a cable with 8 wires each stranded 22 gage.
 
-## Z Motor Mount Problems
-
-The 3D model for the Z motor bracket seems like it might be wrong. When viewed from side, the motor shaft does not line up with the screw.
-
-![motor2](images/_DSC0361.jpg)
-
-It seems like the offset for the mounting tab on the back got mirrored the wrong way when making the model. If I take the part and mount it upside down, so from the back it looks like.
-
-![motor2](images/_DSC0363.jpg)
-
-Then the shaft lines up as shown in next photo.
-
-![motor2](images/_DSC0364.jpg)
-
-For now, I have just connected it up upside down with the coupler connected to the shaft coming out of the back of the motor.
 
