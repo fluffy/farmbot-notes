@@ -108,15 +108,11 @@ The water is supplied by a small marine bilge pump. It does not really provide e
 
 We could not find the small barbs in the design so we took a 1/8 inch barb drilled a 3/16 inch whole in the mount and push the barb into the mount with a vice. Then we connected another barb for the 1/4 water line to that one.
 
-The holes to mount the universal tool to the z axis are very close together and did not have enough space for two t-nuts on be side by side in the track. Not sure if our t-nuts are too large or if the wholes need to be further apart.
+The holes to mount the universal tool mount (UTM) to the z axis are very close together and did not have enough space for two t-nuts on be side by side in the track. The M5 t-nuts in the 1.1 onshape design have a length of 10 mm which just works. Unfortunately the t-nuts we got (http://openbuildspartstore.com/tee-nuts-25-pack/) are 15 mm long so are too long to fit between the two holes on the UTM. Might fix this by hacksawing a few t-nuts to be a bit shorter. 
 
 * One idea that came up was: why not have the barbs be just part of the 3d printed plastic so that the tube just pressed onto the tool mount directly and perhaps had a hose clamp.
 
-We are pretty excited that the current build moves and squirts water.
+We are pretty excited that the current thing we have built moves and squirts water.
 
 ![stepperWiring](images/_DSC0437.jpg)
-
-
-
-
 
