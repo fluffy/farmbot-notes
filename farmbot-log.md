@@ -92,4 +92,31 @@ Was going to print motor mount out of nylon which would be much stronger but did
 
 Wishing the wire I got to connect up the motors was smaller and more flexible. Think I would use a cable with 8 wires each stranded 22 gage.
 
+# Water and Wiring - Day 7
+
+Wired up Y and Z stepper motors. Do not have encoders yet. The orientation of the stepper motors is red wire down for all of them except the 2nd X more which runs in the revere direction with red wire up.
+
+![stepperWiring](images/_DSC0440.jpg)
+
+The serial console cable wiring for the PI has green in ground, blue is transmit from PI and red is receive. It looks like. 
+
+![stepperWiring](images/_DSC0441.jpg)
+
+The water is supplied by a small marine bilge pump. It does not really provide enough pressure to lift the water a high as we would like so the reservoir of water needs to be pretty high. Need to find a better pump. 
+
+![stepperWiring](images/_DSC0439.jpg)
+
+We could not find the small barbs in the design so we took a 1/8 inch barb drilled a 3/16 inch whole in the mount and push the barb into the mount with a vice. Then we connected another barb for the 1/4 water line to that one.
+
+The holes to mount the universal tool to the z axis are very close together and did not have enough space for two t-nuts on be side by side in the track. Not sure if our t-nuts are too large or if the wholes need to be further apart.
+
+* One idea that came up was: why not have the barbs be just part of the 3d printed plastic so that the tube just pressed onto the tool mount directly and perhaps had a hose clamp.
+
+We are pretty excited that the current build moves and squirts water.
+
+![stepperWiring](images/_DSC0437.jpg)
+
+
+
+
 
