@@ -8,11 +8,11 @@ My young friend, who also has the awesome name of Rory, and I have decided to tr
 
 Let me just start by saying I can't wait till I can jut go to the farmbot.io online store click "send me the whole thing" and be done. Most the parts I got from the sites suggested in the documentation.
 
-We got the Plates from using the DXF file from 1.0 and had them cut by JP Metals in Calgary for approximately $200 US out of 3/16 aluminum. (not the 5mm in design). One thing we noticed is that seems to be missing the end bracket to mount the motors for the x axis. I think we will use the drawings from 1.0 to try and make one using a hacksaw and drill press. May try to cut with CNC router at some point.
+We got the Plates from using the DXF file from 1.0 and had them cut by JP Metals in Calgary for approximately $200 US out of 3/16 aluminum. (not the 5mm in design).  Note the right way to get the DXF file is to go to the current CAD drawings in onshape, go to the Meta directory, then go to "all plates layout (flat)".  One thing we noticed is that seems to be missing the end bracket to mount the motors for the x axis. I think we will use the drawings from 1.0 to try and make one using a hacksaw and drill press. May try to cut with CNC router at some point.
 
 The 1.1 drawings have a nice bent mental version of the Z motor mount but I think we will try and 3d print the one from the 1.0 drawings instead. 
 
-I have no idea if the stepper motors and encoders we got will work but we ordered the stepper motor from inventables part number 25253-01 (https://www.inventables.com/technologies/stepper-motor-nema-17) and an AMT102-V encoder from digikey (http://www.digikey.ca/product-detail/en/cui-inc/AMT102-V/102-1307-ND/827015). How the encoder mounts on the motor is still an "miracle happens here step" but we might try to glue the encoder on to the motor. Any advice appreciated.  The motor is a SM42HT47-1684B from smart automation (http://www.smartautomation.com.cn/ProductShow.asp?ArticleID=498). In looking for steppers, I found googling for 42HT47 useful as well as the page at (http://reprap.org/wiki/NEMA_17_Stepper_motor)
+I have no idea if the stepper motors and encoders we got will work but we ordered the stepper motor from inventables part number 25253-01 (https://www.inventables.com/technologies/stepper-motor-nema-17) and an AMT102-V encoder from digikey (http://www.digikey.ca/product-detail/en/cui-inc/AMT102-V/102-1307-ND/827015). How the encoder mounts on the motor is still an "miracle happens here step" but we might try to glue the encoder on to the motor. Any advice appreciated.  The motor is a SM42HT47-1684B from smart automation (http://www.smartautomation.com.cn/ProductShow.asp?ArticleID=498). In looking for steppers, I found googling for 42HT47 useful as well as the page at (http://reprap.org/wiki/NEMA_17_Stepper_motor). The motor is rated 2.8V, 1.68 A per phase, 0.438 N*m torque, and a step angle of 0.9 degrees. 
 
 To run the PI camera over an HDMI cable, I got the "Pi Camera HDMI Cable Extension" from Petit Studio (https://www.tindie.com/products/freto/pi-camera-hdmi-cable-extension/ ). Perhaps a USB camera would be a better idea. Will see what happens.
 
@@ -106,13 +106,24 @@ The water is supplied by a small marine bilge pump. It does not really provide e
 
 ![stepperWiring](images/_DSC0439.jpg)
 
-We could not find the small barbs in the design so we took a 1/8 inch barb drilled a 3/16 inch whole in the mount and push the barb into the mount with a vice. Then we connected another barb for the 1/4 water line to that one.
+We could not find the small barbs in the design so we took a 1/8 inch barb then drilled a 3/16 inch whole in the mount and push the barb into the mount with a vice. Then we connected another barb for the 1/4 water line to that one.
 
-The holes to mount the universal tool mount (UTM) to the z axis are very close together and did not have enough space for two t-nuts on be side by side in the track. The M5 t-nuts in the 1.1 onshape design have a length of 10 mm which just works. Unfortunately the t-nuts we got (http://openbuildspartstore.com/tee-nuts-25-pack/) are 15 mm long so are too long to fit between the two holes on the UTM. Might fix this by hacksawing a few t-nuts to be a bit shorter. 
+The holes to mount the universal tool mount (UTM) to the z axis are very close together and did not have enough space for two t-nuts on be side by side in the track. The M5 t-nuts in the 1.1 onshape design have a length of 10 mm which just works. Unfortunately the t-nuts we got (http://openbuildspartstore.com/tee-nuts-25-pack/) are 15 mm long so are too long to fit between the two holes on the UTM. ~~~Might fix this by hacksawing a few t-nuts to be a bit shorter. ~~~ Fixed this by using  the post assembly t-nuts from inventables (https://www.inventables.com/technologies/post-assembly-t-slot-nuts) which do work. 
 
-* One idea that came up was: why not have the barbs be just part of the 3d printed plastic so that the tube just pressed onto the tool mount directly and perhaps had a hose clamp.
+* One idea that came up was: Why not have the barbs be just part of the 3d printed plastic so that the tube just pressed onto the tool mount directly and perhaps had a hose clamp.
 
 We are pretty excited that the current thing we have built moves and squirts water.
 
 ![stepperWiring](images/_DSC0437.jpg)
+
+# Calibration and Mounts - Day 8 
+
+We added the tool mount.
+
+For the calibration of the pulses per mm of movement on the x and y axis we calculated how far 200 pulses would move. No micro stepping so 200 pulse = 200 steps. The step angle is 0.9 degrees so this would be 180 degrees or half a revolution. The gear has 20 teeth so in the half revolution, the belt would move the distance of 10 teeth. The belt is GT2 and the teeth are 2 mm apart so the 10 teeth worth of rotation would move the belt by 20 mm. So our system needs 10 pulses per mm in X and Y. Each motor can pull the belt with about 35 lbs of force. 
+
+For the Z axis, the screw moves 8 mm per revolution. So 200 pulses is half a resolution and moves it 4 mm. So our system needs 50 pulses per mm in the Z. It can generate around 175 lbs of force. 
+
+We have not figured out how to set up the pulses per mm in configuration. Currently our x,y moves move 1/5 the distance they should and the z moves 1/25.
+
 
