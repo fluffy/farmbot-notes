@@ -146,7 +146,7 @@ The smaller drag cable that is 15x30 from inventables does have a bend radius of
 
 Here is a side view of the z-axis drag cable where it mount at the cross slide plate. You can see the bend is tight with this 28 mm bend radius and no chance 38mm would work. 
 
-![zCarrier](images/_DSC0463jpg)
+![zCarrier](images/_DSC0463.jpg)
 
 And here is a photo of 3D printing three of the cable carrier brackets.
 
