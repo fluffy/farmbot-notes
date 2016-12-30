@@ -18,6 +18,8 @@ To run the PI camera over an HDMI cable, I got the "Pi Camera HDMI Cable Extensi
 
 The RAMPS shield seemed to be out of stock most places but (http://www.sainsmart.com/) had them. All the stuff from sainsmart arrived quickly in nice case. I had not ordered from them before but I will use them again.
 
+Update: the cable carriers from inventables had a bend radius that was too large and did not work. Hoever the smaller 15mm x 30mm carriers from inventables look like they might work.
+
 
 # Building Tracks - Day 1
 
