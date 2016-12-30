@@ -110,7 +110,7 @@ The water is supplied by a small marine bilge pump. It does not really provide e
 
 We could not find the small barbs in the design so we took a 1/8 inch barb then drilled a 3/16 inch whole in the mount and push the barb into the mount with a vice. Then we connected another barb for the 1/4 water line to that one.
 
-The holes to mount the universal tool mount (UTM) to the z axis are very close together and did not have enough space for two t-nuts on be side by side in the track. The M5 t-nuts in the 1.1 onshape design have a length of 10 mm which just works. Unfortunately the t-nuts we got (http://openbuildspartstore.com/tee-nuts-25-pack/) are 15 mm long so are too long to fit between the two holes on the UTM. ~~~Might fix this by hacksawing a few t-nuts to be a bit shorter. ~~~ Fixed this by using  the post assembly t-nuts from inventables (https://www.inventables.com/technologies/post-assembly-t-slot-nuts) which do work. 
+The holes to mount the universal tool mount (UTM) to the z axis are very close together and did not have enough space for two t-nuts on be side by side in the track. The M5 t-nuts in the 1.1 onshape design have a length of 10 mm which just works. Unfortunately the t-nuts we got (http://openbuildspartstore.com/tee-nuts-25-pack/) are 15 mm long so are too long to fit between the two holes on the UTM. ~~Might fix this by hacksawing a few t-nuts to be a bit shorter.~~ Fixed this by using  the post assembly t-nuts from inventables (https://www.inventables.com/technologies/post-assembly-t-slot-nuts) which do work. 
 
 * One idea that came up was: Why not have the barbs be just part of the 3d printed plastic so that the tube just pressed onto the tool mount directly and perhaps had a hose clamp.
 
