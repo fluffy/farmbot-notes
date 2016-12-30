@@ -127,3 +127,28 @@ For the Z axis, the screw moves 8 mm per revolution. So 200 pulses is half a res
 We have not figured out how to set up the pulses per mm in configuration. Currently our x,y moves move 1/5 the distance they should and the z moves 1/25.
 
 
+# Tools - Day 9
+
+3D printed some more tools and put magnets in the UTM and tools. Amazing how well the magnets work.
+
+![magnets](images/_DSC0448.jpg)
+
+
+# Cable Carriers - Day 10
+
+Added the cable carriers but ran into what looks like it might be a bit of a part problem (or perhaps design problem). 
+
+The design calls for the cable carriers with a bend radius of 28mm (See https://farmbot-genesis.readme.io/docs/electronics-and-wiring#section-cable-carrier). By bend radius, I am measuring the radius to the center of the carrier (not top or bottom). When I measure the radius needed for the z carrier, I get 53.5mm from back of cross slide plate to front of z axis cable carrier implying a bend radius a tad under 27 mm but 28 would probably work fine. However, the problem is that looking at the datasheet of the drag cable from the DragChain.pdf file found at https://www.inventables.com/technologies/drag-chain, the bend radius of this drag cable looks like it might be 38mm. Perhaps it is available in 3 different radius but what inventables is shipping has a bend radius of 38 mm and does not work. 
+
+The smaller drag cable that is 15x30 from inventables does have a bend radius of 28 mm so we are trying to use that for the z axis. Not sure if everything will fit. The mounting holes don't line up and the carriers brackets are too wide but it looks like it will probably work.
+
+Here is a side view of the z-axis drag cable where it mount at the cross slide plate. You can see the bend is tight with this 28 mm bend radius and no chance 38mm would work. 
+
+![zCarrier](images/_DSC0463jpg)
+
+And here is a photo of 3D printing three of the cable carrier brackets.
+
+![printing](images/_DSC0444.jpg)
+
+
+
