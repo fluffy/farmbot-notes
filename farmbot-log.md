@@ -345,15 +345,17 @@ Water is green tube and vacuum tube is white.
 
 We have a mostly complete minimal farmbot.
 
-![wiring](images/_DSC0495.jpg)
+![minBot](images/_DSC0495.jpg)
 
 Can't figure out what is up with calibrate command but it does not
 work for us so we just hacked the Arduino software to do a home when
 it receives a calibrate command instead. That's all we need for 
 now and can try calibrate again once it seems to work. Patch to do
-this is at
+this is at:
+
 https://github.com/fluffy/farmbot-arduino-firmware/commit/a9ad77b2d664b0027
-. Fixed a few other issues in Arduino software.
+
+Fixed a few other issues in Arduino software.
 
 The backlash in the Z axis is pretty brutal because as the whole flex
 coupling gets stretched out when it is moving one way and compressed
