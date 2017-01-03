@@ -384,5 +384,5 @@ Still need to
 
 Here is an example sequence Rory wrote to get the seeder tool.
 
-![seq1](images/sequence1.jpeg)
+![seq1](images/sequence1.jpg)
 
